@@ -6,8 +6,6 @@ class Elide < Formula
   sha256 "6f9d8781782841c8a3f1c056fe359fae7271f72e469869c1c72ea22bd9ad580c"
   license "MIT"
 
-  depends_on "graalvm_jdk" => :build
-
   def install
     system "./gradlew", ":packages:cli:nativeOptimizedCompile", "-Pelide.release=true", "-Pelide.buildMode=opt"
   end
