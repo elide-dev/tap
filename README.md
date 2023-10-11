@@ -2,11 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install elide-dev/elide/<formula>`
+**Install the tap, then install formulae from it:**
+```
+brew tap elide-dev/elide
+brew install elide
+```
 
-Or `brew tap elide-dev/elide` and then `brew install <formula>`.
+**Or, install directly:**
+`brew install elide-dev/elide/elide`
 
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
-
