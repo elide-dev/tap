@@ -21,12 +21,6 @@ class Elide < Formula
         sha256 "7f758dfb3a429d0133ece5822e09a52b15e57d1d68eebb88de822844021ecabf"
       end
     end
-    on_amd64 do
-      resource "elide_release" do
-        url "https://github.com/elide-dev/elide/releases/download/1.0.0-alpha9/elide-1.0.0-alpha9-darwin-amd64.txz"
-        sha256 "f25e9199e74cd3f3870b8e2f87a559664cbf34e9196b1d6b0c9ab5b4bda858f4"
-      end
-    end
   end
 
   on_linux do
