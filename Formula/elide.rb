@@ -36,12 +36,6 @@ class Elide < Formula
         sha256 "6da4fc41250789475fc3b77d8485ac9aecc784b636bffe0f45b59613f5abda7c"
       end
     end
-    on_arm do
-      resource "elide_release" do
-        url "https://github.com/elide-dev/elide/releases/download/1.0.0-alpha9/elide-1.0.0-alpha9-linux-aarch64.tgz"
-        sha256 "19b826d80c6306aca410ca75eee2dea14dcb907b158e3fd0e1ee35d8b71e8c51"
-      end
-    end
   end
 
   def install
