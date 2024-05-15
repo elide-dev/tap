@@ -2,7 +2,7 @@ class Elide < Formula
   desc "Fast, polyglot JVM-based runtime"
   homepage "https://elide.dev"
   version "1.0.0-alpha9"
-  sha256 "1115002907d127f37dc8c819900aa432dd6438a9f0cc332a5e5f90550a213704"
+  sha256 "299f9acfb7c1ac865a3339d371a395a72f8a2c5d4c4c5667118b6b73cf2857ba"
   license "MIT"
   head "https://github.com/elide-dev/elide.git", using: :git
   url "https://github.com/elide-dev/elide/archive/refs/tags/1.0.0-alpha9.tar.gz"
